@@ -10,6 +10,6 @@ export class SignUpComponent {
   constructor(private router: Router) {}
   
   redirectToPage() {
-    this.router.navigateByUrl('/sign-in');
+    this.router.navigate(['/sign-in']);
   }
 }
